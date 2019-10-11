@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Scannerjavaa{
+    public static void main(String[] args) {
+        System.out.println("Nilai MTK :");
+        Scanner inp = new Scanner (System.in);
+        int a = inp.nextInt();
+        System.out.println("Nilai Kimia :");
+        int b = inp.nextInt();
+        System.out.println("nilai Fisika :");
+        int c = inp.nextInt();
+        System.out.println("nilai Biologi :");
+        int d = inp.nextInt();
+        
+        System.out.println("Nilai Rata rata = " + (a+b+c+d)/4);
+        
+        
+}
+}
